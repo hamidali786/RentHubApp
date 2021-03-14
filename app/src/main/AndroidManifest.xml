@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.renthubapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RentHubApp">
+        <activity android:name=".NearByLocation" />
+        <activity android:name=".MainDrawerLayout"/>
+        <activity android:name=".circularMenu" />
+        <activity android:name=".userProfile" />
+        <activity android:name=".custom_toast" />
+        <activity android:name=".Dashboard" />
+        <activity android:name=".SliderEffects" />
+        <activity android:name=".FlipperViewActivity" />
+        <activity android:name=".Verify_OTP" />
+        <activity android:name=".Phone_Authentication" />
+        <activity android:name=".addVolley" />
+        <activity android:name=".TxtToSpeech" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".Content_Contact" />
+        <activity android:name=".Contact" />
+        <activity android:name=".Vehicle_info" />
+        <activity android:name=".Edit_Vehicle_info" />
+        <activity android:name=".Vehicle_register" />
+        <activity android:name=".signUp" />
+        <activity android:name=".login" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

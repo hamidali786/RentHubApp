@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">RentHubApp</string>
+    <string name="welcome">Welcome</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="log_in">LOG IN</string>
+    <string name="welcome_to_rent_hub">Welcome to Rent|HUB</string>
+    <string name="we_provides_a_plat_form_to_the_services_you_needs">We Provides a Plat Form To The Services You Needs.</string>
+    <string name="by_signing_up_you_agree_with_our">By signing up, you agree with our</string>
+    <string name="terms_amp_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="username">UserName</string>
+    <string name="send">send</string>
+    <string name="write_here">Write here</string>
+    <string name="title">Title</string>
+    <string name="email_address">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="or">--OR--</string>
+    <string name="already_account_log_in_now">Already Account? Log In Now</string>
+    <string name="register_now">REGISTER NOW</string>
+    <string name="already_account_login_now">Already Account? LogIn Now</string>
+    <string name="rent_hub_rental_services_platform">Rent|Hub Rental Services Platform</string>
+    <string name="dots">...</string>
+    <string name="navigation_drawer_close">NavigationDrawerClose</string>
+    <string name="navigation_drawer_open">NavigationDrawerOpen</string>
+    <string name="todo">TODO</string>
+
+</resources>

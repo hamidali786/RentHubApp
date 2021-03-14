@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "867113412056",
+    "firebase_url": "https://renthubapp-51c80-default-rtdb.firebaseio.com",
+    "project_id": "renthubapp-51c80",
+    "storage_bucket": "renthubapp-51c80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:867113412056:android:31fb7a29b1d2162a98bead",
+        "android_client_info": {
+          "package_name": "com.example.renthubapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "867113412056-qkeh1l6uf44e0i1kve9a6k1je1fk6hgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCpf7cCyDNOGLm8_Ij5fr9joBNwC1V9IBc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "867113412056-qkeh1l6uf44e0i1kve9a6k1je1fk6hgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".addVolley">
+
+    <EditText
+        android:id="@+id/usernameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_weight="0.15"
+        android:alpha="0.8"
+        android:background="#c7c7c7"
+        android:ems="10"
+        android:hint="Username"
+        android:inputType="textPassword"
+        android:paddingLeft="12dp"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/passwordET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="0.15"
+        android:alpha="0.8"
+        android:background="#c7c7c7"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:paddingLeft="12dp"
+        android:textColorHint="#000000" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="167dp"
+            android:layout_height="85dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Log in" />
+
+</LinearLayout>

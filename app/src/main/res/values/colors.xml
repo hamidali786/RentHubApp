@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/ic_home</item>
+        <item>@drawable/ic_dashboard</item>
+        <item>@drawable/ic_services</item>
+        <item>@drawable/ic_car</item>
+        <item>@drawable/ic_hotel</item>
+    </array>
+    <array name="colors">
+        <item>@android:color/holo_blue_light</item>
+        <item>@android:color/darker_gray</item>
+        <item>@android:color/holo_red_light</item>
+        <item>@android:color/holo_purple</item>
+        <item>@android:color/holo_orange_light</item>
+    </array>
+    <color name="DarkGreen">#006400</color>
+    <color name="colorSecondary">#EE155902</color>
+    <color name="colorPrimaryDark">#ad1a7f</color>
+    <color name="colorAccent">#ffffff</color>
+    <color name="colorAccentSecondary">#ad1a7f</color>
+    <color name="viewBg">#f8f8f8</color>
+    <color name="btn_disabled">#999</color>
+    <color name="lbl_value">#222222</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="newcolor">#ff2068</color>
+    <color name="newcolor1">#ad1a7f</color>
+    <color name="newcolor2">#6d0094</color>
+
+    <color name="bookregcolor">#03554E</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

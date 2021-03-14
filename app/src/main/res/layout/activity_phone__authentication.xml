@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Phone_Authentication"
+    android:orientation="vertical"
+    android:paddingHorizontal="30dp"
+    android:gravity="center_horizontal"
+    >
+
+    <!--    <TextView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:text="Phone Verification"-->
+    <!--        android:textSize="30dp"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        android:gravity="center"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        />-->
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="19dp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#b01911"
+        android:layout_marginBottom="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"
+        >
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccp"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            app:ccp_autoDetectCountry="true"
+            app:ccp_showPhoneCode="false"
+            app:ccp_autoFormatNumber="true"
+            android:background="@drawable/shape"
+            />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phoneNumber"
+            android:layout_width="match_parent"
+            android:layout_height="43dp"
+            android:hint="Mobile Number"
+            android:inputType="phone"
+            android:background="@drawable/shape"
+            android:padding="10dp"
+            android:layout_marginLeft="2dp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Send Code"
+        android:onClick="sendCode"
+
+        android:layout_marginTop="50dp"
+        android:background="@drawable/button"
+        />
+
+    <!--    <TextView-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:padding="5dp"-->
+    <!--        android:gravity="right"-->
+    <!--        android:text="Back to Home"-->
+    <!--        android:onClick="gotoHome"-->
+    <!--        android:textStyle="bold"-->
+    <!--        android:textColor="@color/black"-->
+    <!--        />-->
+
+</LinearLayout>
