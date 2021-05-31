@@ -1,51 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android = "http://schemas.android.com/apk/res/android"
-    xmlns:tools = "http://schemas.android.com/tools"
-    tools:showIn= "navigation_view" >
-    <group android:checkableBehavior= "single" >
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
         <item
             android:id= "@+id/nav_dashboard"
             android:icon= "@drawable/ic_dashboard"
             android:title= "Dashboard" />
         <item
-            android:id= "@+id/nav_profile"
-            android:icon= "@drawable/ic_profile"
-            android:title= "User Profile" />
+            android:id="@+id/itemHome"
+            android:icon="@drawable/ic_hotel"
+            android:title="Quick House Ads" />
         <item
-            android:id= "@+id/nav_logOut"
-            android:icon= "@drawable/ic_logout"
-            android:title= "Log Out" />
+            android:id= "@+id/nav_Vehicle"
+            android:icon= "@drawable/ic_car"
+            android:title= "Quick Vehicle Ads" />
+        <item
+            android:id="@+id/itemAddRent"
+            android:icon="@drawable/ic_post_add"
+            android:title="Post an Ad"/>
+        <item
+            android:id="@+id/itemMyPosts"
+            android:icon="@drawable/ic_post_add"
+            android:title="My Posts"/>
+
+        <item
+            android:id="@+id/itemProfile"
+            android:icon="@drawable/ic_person"
+            android:title="Profile" />
+        <item
+            android:id="@+id/itemSignOut"
+            android:icon="@drawable/ic_logout"
+            android:title="Sign Out" />
+        <item android:title= "@string/communicate" >
+            <menu>
+                <item
+                    android:onClick="nav_Send"
+                    android:id= "@+id/nav_Send"
+                    android:icon= "@drawable/ic_send"
+                    android:title= "Send" />
+                <item
+                    android:onClick="nav_Share"
+                    android:id= "@+id/nav_Share"
+                    android:icon= "@drawable/ic_share"
+                    android:title= "Share" />
+                <item
+                    android:onClick="nav_feedBack"
+                    android:id= "@+id/nav_feedBack"
+                    android:icon= "@drawable/ic_feedback"
+                    android:title= "@string/feed_back" />
+            </menu>
+        </item>
     </group>
-    <item android:title= "Available Rental Services" >
-        <menu>
-            <item
-                android:id= "@+id/nav_Vehicle"
-                android:icon= "@drawable/ic_car"
-                android:title= "Vehicle" />
-            <item
-                android:id= "@+id/nav_RealEstate"
-                android:icon= "@drawable/ic_hotel"
-                android:title= "RealEstate" />
-            <item
-                android:id= "@+id/nav_NearByLocation"
-                android:icon= "@drawable/ic_location"
-                android:title= "Near By Location" />
-        </menu>
-    </item>
-    <item android:title= "Communicate" >
-        <menu>
-            <item
-                android:id= "@+id/nav_Send"
-                android:icon= "@drawable/ic_send"
-                android:title= "Send" />
-            <item
-                android:id= "@+id/nav_Share"
-                android:icon= "@drawable/ic_share"
-                android:title= "Share" />
-            <item
-                android:id= "@+id/nav_feedBack"
-                android:icon= "@drawable/ic_feedback"
-                android:title= "Feed Back" />
-        </menu>
-    </item>
+
 </menu>

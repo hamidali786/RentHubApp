@@ -24,5 +24,20 @@
     <string name="navigation_drawer_close">NavigationDrawerClose</string>
     <string name="navigation_drawer_open">NavigationDrawerOpen</string>
     <string name="todo">TODO</string>
+    <string name="available_rental_services">Available Rental Services</string>
+    <string name="vehicle">Vehicle</string>
+    <string name="realestate">RealEstate</string>
+    <string name="near_by_location">Near By Location</string>
+    <string name="communicate">Communicate</string>
+    <string name="feed_back">Feed Back</string>
+    <string name="RS">Rupees</string>
+    <array name="roles">
+        <item>Owner</item>
+        <item>Renter</item>
+    </array>
 
+    <array name="period">
+        <item>Monthly</item>
+        <item>Yearly</item>
+    </array>
 </resources>

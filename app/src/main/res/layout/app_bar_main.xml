@@ -9,7 +9,7 @@
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
-        android:layout_height="36dp"
+        android:layout_height="30dp"
         android:theme="@style/Widget.MaterialComponents.ChipGroup">
 
         <androidx.appcompat.widget.Toolbar
@@ -18,5 +18,9 @@
             android:layout_height="match_parent"
             android:background="@color/colorPrimaryDark" />
     </com.google.android.material.appbar.AppBarLayout>
-    <include layout= "@layout/content_main" />
+
+    <include
+        layout="@layout/content_main"
+        android:layout_height="784dp"
+        android:layout_width="match_parent" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -2,6 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.renthubapp">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+
+    <uses-feature android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_logo"
@@ -9,8 +17,19 @@
         android:roundIcon="@drawable/ic_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.RentHubApp">
+        <activity android:name=".SignUpAs"></activity>
+        <activity android:name=".PostAdActivity" />
+        <activity android:name=".MyAdDetails" />
+        <activity android:name=".MyPosts" />
+        <activity android:name=".Profile" />
+        <activity android:name=".HomeDetailsActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".PhoneAuthenticationActivity" />
+        <activity android:name=".ShareApp" />
+        <activity android:name=".Send" />
+        <activity android:name=".RealEstate" />
         <activity android:name=".NearByLocation" />
-        <activity android:name=".MainDrawerLayout"/>
+        <activity android:name=".MainDrawerLayout" />
         <activity android:name=".circularMenu" />
         <activity android:name=".userProfile" />
         <activity android:name=".custom_toast" />
@@ -25,8 +44,6 @@
         <activity android:name=".Content_Contact" />
         <activity android:name=".Contact" />
         <activity android:name=".Vehicle_info" />
-        <activity android:name=".Edit_Vehicle_info" />
-        <activity android:name=".Vehicle_register" />
         <activity android:name=".signUp" />
         <activity android:name=".login" />
         <activity android:name=".MainActivity" />

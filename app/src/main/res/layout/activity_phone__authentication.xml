@@ -14,8 +14,7 @@
     <!--        android:layout_width="match_parent"-->
     <!--        android:layout_height="wrap_content"-->
     <!--        android:text="Phone Verification"-->
-    <!--        android:textSize="30dp"-->
-    <!--        android:textColor="@color/black"-->
+    <!--        android:textSize="30dp"          android:textColor="@color/black"-->
     <!--        android:gravity="center"-->
     <!--        android:layout_marginTop="20dp"-->
     <!--        />-->
@@ -68,6 +67,7 @@
         android:layout_height="wrap_content"
         android:text="Send Code"
         android:onClick="sendCode"
+        android:textColor="@color/white"
 
         android:layout_marginTop="50dp"
         android:background="@drawable/button"

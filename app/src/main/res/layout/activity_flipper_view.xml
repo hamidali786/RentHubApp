@@ -6,80 +6,93 @@
     android:id="@+id/LinearLayout01"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/bg_gradient"
+    android:background="@color/colorAccent"
     android:orientation="vertical"
     tools:context=".FlipperViewActivity"
     >
     <ViewFlipper
         android:id="@+id/ViewFlipper01"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="2dp">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="734dp"
-            android:background="@drawable/bg_dashboard">
+            android:layout_width="275dp"
+            android:layout_height="374dp"
+            android:background="@drawable/flipper1">
 
             <TextView
                 android:id="@+id/TextView01"
-                android:layout_width="wrap_content"
+                android:layout_width="256dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginStart="150dp"
-                android:gravity="center"
-                android:text="Flipper1"
-                android:textColor="#FFFFFF"
+                android:layout_gravity="bottom"
+                android:layout_marginStart="10dp"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="bottom"
+                android:text="@string/rent_hub_rental_services_platform"
+                android:textColor="@color/black"
                 android:textSize="20sp" />
 
         </LinearLayout>
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/bg_dashboard"
-            android:orientation="vertical" >
+            android:layout_height="330dp"
+            android:background="@drawable/flipper2"
+            android:orientation="vertical">
+
             <TextView
                 android:id="@+id/TextView02"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#000000"
-                android:textSize="20sp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="100dp"
-                android:text="Flippper 2" >
-            </TextView>
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="bottom"
+                android:text="@string/rent_hub_rental_services_platform"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
         </RelativeLayout>
+
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/bg_dashboard"
-            android:orientation="vertical" >
+            android:layout_height="330dp"
+            android:background="@drawable/flipper1"
+            android:orientation="vertical">
+
             <TextView
                 android:id="@+id/TextView03"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#FFFFFF"
-                android:textSize="20sp"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="100dp"
-                android:text="Flipper 3" >
-            </TextView>
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="bottom"
+                android:text="@string/rent_hub_rental_services_platform"
+                android:textColor="@color/black"
+                android:textSize="20sp"/>
         </RelativeLayout>
+
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="330dp"
             android:background="@drawable/bg_dashboard"
-            android:orientation="vertical" >
+            android:orientation="vertical">
+
             <TextView
                 android:id="@+id/TextView04"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textColor="#000000"
-                android:textSize="20sp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginTop="100dp"
-                android:text="Flipper 4" />
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="bottom"
+                android:text="@string/rent_hub_rental_services_platform"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
 
         </RelativeLayout>
     </ViewFlipper>

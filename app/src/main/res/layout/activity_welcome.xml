@@ -4,8 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/background_wallpaper"
-
     tools:context=".welcome">
 
     <LinearLayout
@@ -23,6 +21,7 @@
             android:textColor="@color/black"
             android:textSize="20sp"
             app:drawableTopCompat="@drawable/ic_welcome" />
+
         <TextView
             android:id="@+id/link"
             android:layout_width="207dp"
@@ -63,8 +62,4 @@
             tools:ignore="RtlSymmetry" />
 
     </LinearLayout>
-
-
-
-
 </RelativeLayout>

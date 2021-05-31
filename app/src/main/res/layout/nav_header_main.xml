@@ -1,45 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android = "http://schemas.android.com/apk/res/android"
-    xmlns:app = "http://schemas.android.com/apk/res-auto"
-    android:layout_width= "match_parent"
-    android:layout_height= "wrap_content"
-    android:background= "@drawable/bg_gradient"
-    android:gravity= "bottom"
-    android:orientation= "vertical"
-    android:paddingStart= "16dp"
-    android:paddingTop= "18dp"
-    android:paddingEnd= "16dp"
-    android:paddingBottom= "16dp"
-    android:theme= "@style/ThemeOverlay.MaterialComponents" >
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg_gradient"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingStart="16dp"
+    android:paddingTop="28dp"
+    android:paddingEnd="16dp"
+    android:paddingBottom="15dp"
+    android:theme="@style/ThemeOverlay.MaterialComponents">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="59dp"
-        android:layout_height="58dp"
-        android:layout_gravity="start"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="12dp"
-        android:contentDescription="Hello"
-        android:background="@drawable/dashboard_circle"
-        android:padding="12dp"
-        android:paddingTop="8dp"
-        app:srcCompat="@drawable/ic_splash_logo" />
-    <TextView
-        android:layout_width= "wrap_content"
-        android:layout_height= "wrap_content"
-        android:layout_marginStart="28dp"
-        android:fontFamily="sans-serif-smallcaps"
-        android:textSize="20sp"
-        android:paddingTop= "3dp"
+        android:id="@+id/ivHeaderDisplayPicture"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:contentDescription="Nav header description"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
         android:textColor="@color/white"
-        android:text= "Rent|Hub"
-        android:textAppearance= "@style/TextAppearance.AppCompat.Body1" />
+        app:srcCompat="@drawable/dashboard_circle"
+        tools:ignore="VectorDrawableCompat" />
+
     <TextView
-        android:id= "@+id/textView"
-        android:layout_width= "wrap_content"
+        android:id="@+id/tvHeaderUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:textColor="@color/white"
-        android:layout_height= "wrap_content"
-        android:layout_marginStart="28dp"
-        android:text= "Online Rental services Plat form for Client's and Retailer's" />
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:text="Profile Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+    <TextView
+        android:id="@+id/tvHeaderEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="email.address@example.com" />
+
 
 </LinearLayout>

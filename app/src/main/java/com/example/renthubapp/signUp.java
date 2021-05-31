@@ -33,6 +33,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.FirebaseFirestore;
+import com.google.firebase.firestore.QueryDocumentSnapshot;
+import com.google.firebase.firestore.QuerySnapshot;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -64,7 +66,7 @@ public class signUp extends AppCompatActivity implements
         fAuth = FirebaseAuth.getInstance();
         fStore = FirebaseFirestore.getInstance();
         if(fAuth.getCurrentUser() != null){
-            startActivity(new Intent(getApplicationContext(),MainActivity.class));
+            startActivity(new Intent(getApplicationContext(),MainDrawerLayout.class));
             finish();
         }
 
@@ -150,8 +152,22 @@ public class signUp extends AppCompatActivity implements
                 });
             }
         });
-
-
+    //start getting user info
+    fStore.collection("users")
+                .get()
+                .addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+                    @Override
+                    public void onComplete(@NonNull Task<QuerySnapshot> task) {
+                        if (task.isSuccessful()) {
+                            for (QueryDocumentSnapshot document : task.getResult()) {
+                                Log.d(TAG, document.getId() + " => " + document.getData());
+                            }
+                        } else {
+                            Log.w(TAG, "Error getting user info.", task.getException());
+                        }
+                    }
+                });
+        //end getting user info
 
         tv_login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -197,4 +213,6 @@ public class signUp extends AppCompatActivity implements
         // 0 is id of notification
         notificationManager.notify(1, notification);
     }
+
+
 }

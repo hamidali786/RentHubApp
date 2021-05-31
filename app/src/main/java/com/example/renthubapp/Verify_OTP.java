@@ -93,7 +93,7 @@ public class Verify_OTP extends AppCompatActivity {
                 progressBar.setVisibility(View.INVISIBLE);
                 if (task.isSuccessful())
                 {
-                    Intent intent = new Intent(getApplicationContext(), signUp.class);
+                    Intent intent = new Intent(getApplicationContext(), SignUpAs.class);
                     intent.putExtra("phoneNumber", phoneNumber);
                     startActivity(intent);
                     finish();

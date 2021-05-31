@@ -48,7 +48,7 @@ public class Dashboard extends AppCompatActivity {
         cardViewNearByLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), NearByLocation.class);
+                Intent intent = new Intent(getApplicationContext(), Dashboard.class);
                 startActivity(intent);
                 finish();
             }

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/btn_disabled"
+    android:orientation="vertical"
+    tools:context=".PhoneAuthenticationActivity">
+
+        <EditText
+            android:id="@+id/mPhoneNumberField"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="160dp"
+            android:background="@color/white"
+            android:hint="Phone No"
+            android:inputType="phone" />
+        <EditText
+            android:id="@+id/mVerificationField"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:hint="OTP   "
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/mStartButton"
+            android:layout_width="346dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button3"
+            android:text="Start"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/mVerifyButton"
+            android:layout_width="351dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button3"
+            android:text="Verify"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/mResendButton"
+            android:layout_width="354dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/button3"
+            android:text="Resend"
+            android:textColor="@color/white" />
+
+
+
+</LinearLayout>
